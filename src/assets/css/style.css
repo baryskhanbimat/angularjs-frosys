@@ -1,0 +1,14 @@
+
+.navbar{
+  background-color: rgb(35, 183, 229);
+  background-image: linear-gradient(to right, rgb(35, 183, 229) 0%, rgb(81, 198, 234) 100%);
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+  background-repeat: repeat-x;
+}
+
+.navbar-right{
+  margin-right: 50px;
+}

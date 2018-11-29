@@ -1,0 +1,76 @@
+<!-- <div class="container"> -->
+  <form class="panel panel-defaultform-horizontal animated fadeInRight" novalidate #form="ngForm">
+  	<div class="panel-heading bg-primary">
+      <span>Кабинет</span>
+    </div>
+
+    <div class="panel-body">
+  	   <div class="col-sm-9">
+  		     <div class="well">
+  		         <h5>
+               <span class="glyphicon glyphicon-camera"></span> <b>Фотографирование</b></h5>
+          		 <img src="../../assets/images/images.png" class="img-rounded" alt="Avatar" width="214" height="215">
+  		     </div>
+  		     <div class="well">
+  		         <h5>
+
+  			           <span class="glyphicon glyphicon-user"></span>
+  		             <b>Личные данные</b>
+               </h5>
+  		         <h6><b>ФИО:</b> {{obj.fullName}}</h6>
+  		         <h6><b>Дата рождения:</b> 08.11.1994</h6>
+  		         <h6><b>ИИН:</b> 941108300104</h6>
+  		     </div>
+  		     <div class="well">
+  		         <h5>
+
+  			           <span class="glyphicon glyphicon-list-alt"></span>
+  		             <b>Документы</b></h5>
+  		             <h6><b>Документы:</b> Удостоверения личности гражданина РК</h6>
+  		             <h6><b>Номер документа:</b> 012345678</h6>
+  		             <h6><b>Дата выдачи:</b> 05.02.2013</h6>
+  		     </div>
+  		     <div class="well">
+  		         <h5>
+
+  		           <span class="glyphicon glyphicon-globe"></span>
+  			         <b>Адрес</b></h5>
+  		           <h6><b>Адрес проживания:</b> Казахстан, г.Алматы, Бостандыкский район, проспект Гагарина 13, кв 45</h6>
+  		           <h6><b>Адрес регистрации:</b> Казахстан, г.Алматы, Бостандыкский район, проспект Гагарина 13, кв 45</h6>
+  		     </div>
+  		     <div class="well">
+  		         <h5>
+
+  		             <span class="glyphicon glyphicon-earphone"></span>
+  			           <b>Контакты</b></h5>
+  		             <h6><b>Мобильный телефон:</b> +7(747)333 09 54</h6>
+  		     </div>
+  		     <div class="well">
+  		         <h5>
+
+  		             <span class="glyphicon glyphicon-question-sign"></span>
+  			           <b>Кодовое слово</b></h5>
+  			           <h5>qwerty</h5>
+  		     </div>
+  	  </div>
+  	  <div class="col-sm-3 sidenav">
+  		    <h5><b>ФИО клиента</b></h5>
+  		    <h5><b><font color="DeepSkyBlue"> {{obj.fullName}}</font></b></h5>
+  		    <h5><b>ID заявки</b></h5>
+  		    <h5><font color="DeepSkyBlue"> 452132</font></h5>
+  		    <h5><b>Дата создания</b></h5>
+  		    <h5 id="dateFolder"><font color="DeepSkyBlue"> 07.11.2018 10:27:45</font></h5>
+  		    <br>
+  		    <ul class="nav nav-pills nav-stacked">
+  			    <button type="button" class="btn btn-primary btn-block" ng-click="goToDesktop()">Перейти на рабочий стол</button>
+  		      <br>
+  		      <button type="button" class="btn btn-primary btn-block">Редактировать данные</button><br>
+  		      <button type="button" class="btn btn-primary btn-block">Сохранить заявку</button><br>
+  		      <button type="button" class="btn btn-primary btn-block">Удалить заявку</button>
+  		    </ul>
+          <br>
+  	  </div>
+
+  	  </div>
+  </form>
+<!-- </div> -->

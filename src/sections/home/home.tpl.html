@@ -1,0 +1,114 @@
+<div>
+    <div>
+       <div class="sectionHead headLine" style="width :auto">
+          <div style="display: inline-block;vertical-align: middle;"><img src="../../assets/images/search.png"/></div>
+          <div style="display: inline-block;text-align: left;vertical-align: middle;font-family: Tahoma; font-size: 16px;padding-left: 10px;">Поиск по ИИН</div>
+       </div>
+       <div class="row animated zoomIn" align="center">
+          <div class="container-fluid">
+             <div class="row" >
+                <div class="col-md-7" >
+                   <div class="card">
+                      <div class="content">
+                         <form>
+                            <br> <br> <br> <br><br>
+                            <div class="row">
+                               <div class="col-md-4" ></div>
+                               <div class="col-md-8" >
+                                  <div class="form-group">
+                                     <input type="text" placeholder="Введите ИИН..." class="form-control form-control-lg"
+                                        ng-model="iin"
+                                        style="font-size: 55px;height: auto"
+                                        ng-blur="executeProcessByPost();" />
+                                  </div>
+                               </div>
+                            </div>
+                         </form>
+                      </div>
+                   </div>
+                </div>
+                <div class="col-md-5">
+                   <div class="col-md-3" ></div>
+                   <div class="col-md-6" style=" border-width:1px; border-color: rgb(190,190,190); border-style: solid;">
+                      <div class="card">
+                         <div class="header">
+                            <span>Физ.лицо &nbsp;&nbsp;&nbsp; </span>
+                            <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                            </label>
+                            <span >&nbsp;&nbsp;&nbsp;Юр.лицо</span>
+                         </div>
+                         <div class="content">
+                            <div class="[ col-xs-12 ]">
+                               <hr />
+                               <div class="[ form-group ]" style="width: auto;">
+                                  <input type="checkbox" name="fancy-checkbox-primary" id="check_id" autocomplete="off" checked/>
+                                  <div class="[ btn-group ]" style="width: 230px; height: 35px;">
+                                     <label for="check_id" class="[ btn btn-primary ]">
+                                     <span class="[ glyphicon glyphicon-ok ]"></span>
+                                     <span> </span>
+                                     </label>
+                                     <label for="check_id" class="[ btn btn-default active ]" style="width: 180px; height: 34px;">
+                                     По ИИН
+                                     </label>
+                                  </div>
+                               </div>
+                               <div class="[ form-group ]" style="width: auto;">
+                                  <input type="checkbox" name="fancy-checkbox-primary" id="check_doc" autocomplete="off" />
+                                  <div class="[ btn-group ]" style="width: 230px; height: 35px;">
+                                     <label for="check_doc" class="[ btn btn-primary ]">
+                                     <span class="[ glyphicon glyphicon-ok ]"></span>
+                                     <span> </span>
+                                     </label>
+                                     <label for="check_doc" class="[ btn btn-default active ]" style="width: 180px; height: 34px;">
+                                     По документу
+                                     </label>
+                                  </div>
+                               </div>
+                               <div class="[ form-group ]" style="width: auto;">
+                                  <input type="checkbox" name="fancy-checkbox-primary" id="check_card" autocomplete="off" />
+                                  <div class="[ btn-group ]" style="width: 230px; height: 35px;">
+                                     <label for="check_card" class="[ btn btn-primary ]">
+                                     <span class="[ glyphicon glyphicon-ok ]"></span>
+                                     <span> </span>
+                                     </label>
+                                     <label for="check_card" class="[ btn btn-default active ]" style="width: 180px; height: 34px;">
+                                     По карте
+                                     </label>
+                                  </div>
+                               </div>
+                               <div class="[ form-group ]" style="width: auto;">
+                                  <input type="checkbox" name="fancy-checkbox-primary" id="check_phone" autocomplete="off" />
+                                  <div class="[ btn-group ]" style="width: 230px; height: 35px;">
+                                     <label for="check_phone" class="[ btn btn-primary ]">
+                                     <span class="[ glyphicon glyphicon-ok ]"></span>
+                                     <span> </span>
+                                     </label>
+                                     <label for="check_phone" class="[ btn btn-default active ]" style="width: 180px; height: 34px;">
+                                     По номеру телефона
+                                     </label>
+                                  </div>
+                               </div>
+                               <div class="[ form-group ]" style="width: auto;">
+                                  <input type="checkbox" name="fancy-checkbox-primary" id="check_fio" autocomplete="off" />
+                                  <div class="[ btn-group ]" style="width: 230px; height: 35px;">
+                                     <label for="check_fio" class="[ btn btn-primary ]">
+                                     <span class="[ glyphicon glyphicon-ok ]"></span>
+                                     <span> </span>
+                                     </label>
+                                     <label for="check_fio" class="btn btn-default active" style="width: 180px; height: 34px;">
+                                     По Ф.И.О и ДР
+                                     </label>
+                                  </div>
+                               </div>
+                            </div>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>

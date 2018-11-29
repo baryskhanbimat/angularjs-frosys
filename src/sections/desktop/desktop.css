@@ -1,0 +1,159 @@
+.green{
+	border: 2px solid #1cc327;
+	border-radius: 10px;
+	padding: 30px 46px;
+	height: 200px;
+	/* width: 160px */
+}
+.blue{
+	border: 2px solid #0a95dd;
+	border-radius: 10px;
+	padding: 30px 46px;
+	height: 200px;
+	/* width: 160px */
+}
+.brown{
+	border: 2px solid #f08232;
+	border-radius: 10px;
+	padding: 30px 46px;
+	height: 200px;
+	/* width: 160px */
+}
+.purple{
+	border: 2px solid #bb4fd2;
+	border-radius: 10px;
+	padding: 30px 46px;
+	height: 200px;
+	/* width: 160px */
+}
+.sectionSubject h4{
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 30px;
+}
+.sectionSubject h4:hover{
+	color: #0a95dd;
+}
+.fiz:hover{
+	background-image:url('../../assets/images/Вклады.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #0a95dd;
+}
+.fiz{
+	background-image:url('../../assets/images/Вклады.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.tsesnapay{
+	background-image:url('../../assets/images/Оформить карту ТР.png');
+	background-repeat: no-repeat;
+
+	background-position: center;
+}
+.tsesnapay:hover{
+	background-image:url('../../assets/images/Оформить карту ТР.png');
+	background-repeat: no-repeat;
+
+	background-position: center;
+	background-color: #0a95dd;
+}
+.re_card{
+	background-image:url('../../assets/images/Перевыпустить карту.png');
+	background-repeat: no-repeat;
+
+	background-position: center;
+}
+.re_card:hover{
+	background-image:url('../../assets/images/Перевыпустить карту.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #0a95dd;
+}
+.balance{
+	background-image:url('../../assets/images/Баланс и выписки.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.balance:hover{
+	background-image:url('../../assets/images/Баланс и выписки.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #0a95dd;
+}
+.close_card{
+	background-image:url('../../assets/images/Закрыть карту.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.close_card:hover{
+	background-image:url('../../assets/images/Закрыть карту.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #0a95dd;
+}
+.named_card2{
+	background-image:url('../../assets/images/Заказ Именная карта.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.named_card2:hover{
+	background-image:url('../../assets/images/Заказ Именная карта.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #0a95dd;
+}
+.credit_cardt{
+	background-image:url('../../assets/images/Оформить КК.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.credit_cardt:hover{
+	background-image:url('../../assets/images/Оформить КК.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #0a95dd;
+}
+
+
+.sectionTwo h1{
+	text-align:center;
+	padding:70px;
+}
+.sectionTwoBlock{
+	margin: 15px;
+	border: 1px solid #e2e2e2;
+	padding: 45px;
+	border-radius: 10px;
+}
+.sectionTwoBlock img{
+	padding-bottom: 40px;
+	padding-left: 80px;
+}
+.sectionTwoBlock h6{
+	text-align: center;
+	font-size: 13px;
+}
+
+
+.sectionOne{
+	background-image: url('../../assets/images/fon4.png');
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin-top:20px;
+}
+.sectionOneText{
+	color: #fff;
+	padding-top: 160px;
+	padding-left: 60px;
+	padding-bottom: 160px;
+}
+.sectionSubject h4{
+	text-align: center;
+}
+
+.sidenav{
+	padding: 15px;
+}

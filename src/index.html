@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AngularJS App Example</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- build:css assets/css/styles.css -->
+    <link rel="stylesheet" href="assets/css/font-icons.css" type='text/css'>
+    <link rel="stylesheet" href="assets/css/animations.css"/>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="sections/home/home.css"/>
+    <link rel="stylesheet" href="sections/desktop/desktop.css"/>
+    <link rel="stylesheet" href="components/show/show.css"/>
+
+    <!-- endbuild -->
+
+    <script type="text/javascript">
+        //<![CDATA[
+        (function() {
+            var shr = document.createElement('script');
+            shr.setAttribute('data-cfasync', 'false');
+            shr.type = 'text/javascript'; shr.async = 'true';
+            shr.onload = shr.onreadystatechange = function() {
+                var rs = this.readyState;
+                if (rs && rs != 'complete' && rs != 'loaded') return;
+                var site_id = 'eafbfda40f862712debe1bc8fcb68c8f';
+                try { Shareaholic.init(site_id); } catch (e) {}
+            };
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(shr, s);
+        })();
+        //]]>
+    </script>
+</head>
+<body data-ng-app="app">
+
+
+    <nav class="navbar navbar-inverse navbar-top">
+
+      <div class="navbar-header">
+        <a href="#/" class="pull-left" style="margin-top: 5px;"><img src="../../assets/images/logo50x50.jpg" alt="Logo" width="40"></a>
+        <a class="navbar-brand" href="#"> <font color="#eee">&nbsp; Фронтальная система </font></a>
+      </div>
+      <ul class="nav navbar-nav navbar-right ">
+        <li><a ui-sref="cabinet" style="color: #eee;"><span class="glyphicon glyphicon-user"></span> Бимат Барысхан Кенесбекулы</a></li>
+      </ul>
+    </nav>
+
+    <section id="main">
+       <ng-view></ng-view>
+    </section>
+
+
+
+
+
+    <!-- <section id="site-bar" data-ng-controller="BarController as bar">
+       <div class="container">
+           <h1>{{bar.data.title}}</h1>
+           <p>{{bar.data.description}}</p>
+       </div>
+       <div class="page-loader" data-ng-show="bar.data.loading"><div class="throbber"></div></div>
+   </section> -->
+
+
+
+
+<!-- build:assets assets.min.js -->
+<!-- ASSETS -->
+    <script src="assets/js/angular.min.js"></script>
+    <script src="assets/js/angular-animate.min.js"></script>
+    <script src="assets/js/angular-cookies.min.js"></script>
+    <script src="assets/js/angular-route.min.js"></script>
+    <script src="assets/js/angular-touch.min.js"></script>
+    <script src="assets/js/moment.min.js"></script>
+    <script src="assets/js/angular-moment.min.js"></script>
+    <script src="assets/js/angular-truncate.js"></script>
+    <script src="assets/js/angular-preload-image.min.js"></script>
+<!-- / -->
+<!-- endbuild -->
+<!-- build:js app.min.js -->
+<!-- MODULES -->
+    <script src="app.routes.js"></script>
+    <script src="app.config.js"></script>
+    <script src="app.core.js"></script>
+    <script src="app.services.js"></script>
+    <script src="app.js"></script>
+<!-- / -->
+<!-- CONTROLLERS -->
+    <script src="sections/home/home.ctrl.js"></script>
+    <script src="sections/authentication/authentication.ctrl.js"></script>
+    <script src="sections/desktop/desktop.ctrl.js"></script>
+    <script src="sections/cabinet/cabinet.ctrl.js"></script>
+<!-- / -->
+<!-- SERVICES -->
+    <script src="services/show.fct.js"></script>
+    <script src="services/page.val.js"></script>
+<!-- / -->
+<!-- DIRECTIVES -->
+    <script src="components/show/show.drct.js"></script>
+    <script src="directives/ngEnter.drct.js"></script>
+
+
+    <!-- / -->
+    <!-- inject:js -->
+    <!-- endinject -->
+    <!-- endbuild -->
+</body>
+</html>
